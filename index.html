@@ -5,11 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>image-based-web-project</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/cd62625249.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header></header>
     <main>
         <section>
+            <div class="login-container">
+                <div class="icono-h1">
+                    <i class="fa-solid fa-dove"></i>
+                </div>
+                <div class="titulo-container">
+                    <h1>TRIPIFY</h1>
+                </div>
+                <h3>Explore your dream destinations</h3>
+                <h5>Welcome to tripify! Please enter your login credentials to access <br>your account and explore our wide range of travel options. </h5>
+                <form class="login-form" action="/login" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                    <h6>Don't have an account? Register</h6>
+                </form>
+            </div>
         </section>
     </main>
     <footer></footer>
